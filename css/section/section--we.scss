@@ -1,0 +1,36 @@
+.what-we-do {
+  a {
+    color: #555;
+  }
+}
+
+.skill {
+  margin-top: 50px;
+
+  @include media {
+    margin-top: 24px;
+  }
+
+  @include media('desktop') {
+    margin-top: 28px;
+  }
+
+  &#{_list} {
+
+    small {
+      font-size: 0.778em;
+      color: #bbb;
+
+      @include media('desktop') {
+        font-size: 0.800em;
+      }
+
+    }
+
+    li {
+      & + li {
+        margin-top: 6px;
+      }
+    }
+  }
+}

@@ -1,0 +1,85 @@
+
+.section--Intro {
+
+  &,
+  > .container,
+  > .container > .row,
+  > .container > .row > div {
+    height: 100%;
+  }
+}
+
+.site-header {
+  position: relative;
+  top: 40px;
+
+  @include media('desktop') {
+    top: 120px;
+  }
+}
+
+.site-logo {
+  svg {
+    width: 180px;
+    height: 40px;
+
+    @include media('desktop') {
+      width: 243px;
+      height: 54px;
+    }
+  }
+}
+
+.site-lang {
+  position: absolute;
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  text-decoration: none;
+  letter-spacing: 2px;
+  font-size: 14px;
+  color: #bbb;
+}
+
+/////////////////////////////////////
+
+.slogan {
+  position: absolute;
+  bottom: 50px;
+  left: 15px;
+  right: 15px;
+
+  @include media('desktop') {
+    bottom: 100px;
+  }
+
+  &#{_title} {
+    position: relative;
+    font-size: 26px;
+    line-height: 1.36;
+    color: #111;
+
+    @include media {
+      font-size: 36px;
+    }
+
+    @include media('desktop') {
+      font-size: 42px;
+    }
+
+    &:before {
+      content: '';
+      position: absolute;
+      left: 0;
+      top: -16px;
+      width: 30px;
+      height: 2px;
+      background-color: #ddd;
+
+      @include media('desktop') {
+        width: 50px;
+      }
+
+    }
+  }
+}
