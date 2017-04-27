@@ -1,0 +1,95 @@
+* {
+  &, &:before, &:after {
+    box-sizing: border-box;
+  }
+}
+
+html {
+  height: 100%;
+}
+
+html {
+  font-size: 1.125em;
+  font-family: 'Brandon Regular', "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+  line-height: 1.6;
+  color: #555;
+
+  @include media('desktop') {
+    font-size: 125%;
+  }
+}
+
+body, input, textarea, select, button {
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -moz-font-feature-settings: "liga", "kern";
+}
+
+a {
+  color: #111;
+  text-decoration: none;
+
+  &:hover {
+    animation: rainbow 14s infinite;
+  }
+
+  &:hover,
+  &:focus,
+  &:active {
+  }
+}
+
+blockquote,
+dl,
+dd,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+figure,
+p,
+pre {
+  margin: 0;
+}
+
+button, fieldset, iframe {
+  border: 0;
+}
+
+button {
+  background: transparent;
+  padding: 0;
+}
+
+fieldset,
+ol,
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+img {
+  vertical-align: middle;
+}
+
+h1, h2, h3, h4, h5, h6, strong, b {
+  font-weight: normal;
+  font-family: 'Brandon Bold', "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  line-height: 1.4;
+}
+
+svg {
+  display: inline-block;
+  overflow: hidden;
+}

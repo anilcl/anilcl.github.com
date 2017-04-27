@@ -1,0 +1,68 @@
+$source-font-face: '../font/';
+
+//@font-face {
+//  font-family: 'Brandon Light';
+//  font-style: normal;
+//  font-weight: normal;
+//  src: url($source-font-face + "brandontext-light-webfont.woff") format("woff"), url($source-font-face + "brandontext-light-webfont.ttf") format("truetype");
+//  *src: url('');
+//}
+
+@font-face {
+  font-family: 'Brandon Bold';
+  font-style: normal;
+  font-weight: normal;
+  src: url($source-font-face + "brandontext-bold-webfont.woff") format("woff"), url($source-font-face + "brandontext-bold-webfont.ttf") format("truetype");
+  *src: url('');
+}
+
+@font-face {
+  font-family: 'Brandon Medium';
+  font-style: normal;
+  font-weight: normal;
+  src: url($source-font-face + "brandontext-medium-webfont.woff") format("woff"), url($source-font-face + "brandontext-medium-webfont.ttf") format("truetype");
+  *src: url('');
+}
+
+@font-face {
+  font-family: 'Brandon Regular';
+  font-style: normal;
+  font-weight: normal;
+  src: url($source-font-face + "brandontext-regular-webfont.woff") format("woff"), url($source-font-face + "brandontext-regular-webfont.ttf") format("truetype");
+  *src: url('');
+}
+
+//@font-face {
+//  font-family: 'Brandon Regular Italic';
+//  font-style: normal;
+//  font-weight: normal;
+//  src: url($source-font-face + "brandontext-regularitalic-webfont.woff") format("woff"), url($source-font-face + "brandontext-regularitalic-webfont.ttf") format("truetype");
+//  *src: url('');
+//}
+
+//////////////////////////
+
+@font-face {
+  *font-family: 'Brandon Bold';
+  *src: url($source-font-face + "brandontext-bold-webfont.eot?") format("eot");
+}
+
+@font-face {
+  *font-family: 'Brandon Medium';
+  *src: url($source-font-face + "brandontext-medium-webfont.eot?") format("eot");
+}
+
+//@font-face {
+//  *font-family: 'Brandon Light';
+//  *src: url($source-font-face + "brandontext-light-webfont.eot?") format("eot");
+//}
+
+@font-face {
+  *font-family: 'Brandon Regular';
+  *src: url($source-font-face + "brandontext-regular-webfont.eot?") format("eot");
+}
+
+//@font-face {
+//  *font-family: 'Brandon Regular Italic';
+//  *src: url($source-font-face + "brandontext-regularitalic-webfont.eot?") format("eot");
+//}
