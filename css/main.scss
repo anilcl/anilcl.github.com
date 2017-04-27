@@ -1,0 +1,77 @@
+@charset "UTF-8";
+
+@mixin media($media: 'tablet') {
+  @if $media == 'tablet' {
+    @media (min-width: 768px) {
+      @content;
+    }
+  } @else if $media == 'desktop' {
+    @media (min-width: 992px) {
+      @content;
+    }
+  }
+}
+
+@import "helper/normalize";
+@import "helper/font";
+@import "helper/grid";
+@import "helper/base";
+@import "helper/animation";
+
+body {
+  height: 100%;
+}
+
+.icon {
+  vertical-align: middle;
+  width: 20px;
+  height: 20px;
+  fill: currentColor;
+}
+
+.section {
+  position: relative;
+}
+
+.section-title {
+  margin-bottom: 12px;
+  line-height: 1;
+  font-size: 12px;
+  letter-spacing: 2px;
+  color: #ccc;
+
+  @include media('desktop') {
+    font-size: 14px;
+  }
+}
+
+p {
+  & + & {
+    margin-top: 30px;
+  }
+}
+
+.mark {
+  color: #111;
+  font-size: 1.111em;
+  font-family: 'Brandon Medium', "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+  line-height: 1.5;
+
+  @include media('desktop') {
+    font-size: 1.200em;
+  }
+}
+
+.u-font-medium {
+  font-family: 'Brandon Medium', "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+}
+
+.fuck-out {
+  text-decoration: line-through;
+  color: #bbb;
+}
+
+@import "section/section--intro";
+@import "section/section--we";
+@import "section/section--project";
+@import "section/section--contact";
