@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="205px" height="76px" viewBox="0 0 205 76" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 43.2 (39069) - http://www.bohemiancoding.com/sketch -->
+    <title>Slice</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-1">
+            <stop stop-color="#ECEBEC" offset="0%"></stop>
+            <stop stop-color="#D6D5D6" offset="100%"></stop>
+        </linearGradient>
+        <path d="M10.0063477,0 C4.47999444,0 0,4.47616904 0,9.99920117 L0,74 L891,74 L891,9.99920117 C891,4.47679485 886.522961,0 880.993652,0 L10.0063477,0 Z" id="path-2"></path>
+        <filter x="-0.1%" y="-1.4%" width="100.2%" height="105.4%" filterUnits="objectBoundingBox" id="filter-3">
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feColorMatrix values="0 0 0 0 0.709803922   0 0 0 0 0.705882353   0 0 0 0 0.709803922  0 0 0 1 0" type="matrix" in="shadowOffsetOuter1"></feColorMatrix>
+        </filter>
+        <filter x="-0.1%" y="-0.7%" width="100.1%" height="104.1%" filterUnits="objectBoundingBox" id="filter-4">
+            <feOffset dx="0" dy="1" in="SourceAlpha" result="shadowOffsetInner1"></feOffset>
+            <feComposite in="shadowOffsetInner1" in2="SourceAlpha" operator="arithmetic" k2="-1" k3="1" result="shadowInnerInner1"></feComposite>
+            <feColorMatrix values="0 0 0 0 1   0 0 0 0 1   0 0 0 0 1  0 0 0 0.6 0" type="matrix" in="shadowInnerInner1"></feColorMatrix>
+        </filter>
+        <rect id="path-5" x="0" y="0" width="48" height="44" rx="8"></rect>
+        <filter x="-1.0%" y="-1.1%" width="102.1%" height="104.5%" filterUnits="objectBoundingBox" id="filter-6">
+            <feOffset dx="0" dy="1" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feColorMatrix values="0 0 0 0 0.749019608   0 0 0 0 0.737254902   0 0 0 0 0.749019608  0 0 0 1 0" type="matrix" in="shadowOffsetOuter1"></feColorMatrix>
+        </filter>
+        <rect id="path-7" x="0" y="0" width="48" height="44" rx="8"></rect>
+        <filter x="-1.0%" y="-1.1%" width="102.1%" height="104.5%" filterUnits="objectBoundingBox" id="filter-8">
+            <feOffset dx="0" dy="1" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feColorMatrix values="0 0 0 0 0.749019608   0 0 0 0 0.737254902   0 0 0 0 0.749019608  0 0 0 1 0" type="matrix" in="shadowOffsetOuter1"></feColorMatrix>
+        </filter>
+        <rect id="path-9" x="0" y="0" width="612" height="44" rx="7"></rect>
+        <filter x="-0.1%" y="-1.1%" width="100.2%" height="104.5%" filterUnits="objectBoundingBox" id="filter-10">
+            <feOffset dx="0" dy="1" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feColorMatrix values="0 0 0 0 0.749019608   0 0 0 0 0.737254902   0 0 0 0 0.749019608  0 0 0 1 0" type="matrix" in="shadowOffsetOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="SAFARI">
+            <g id="menu-bar">
+                <use fill="black" fill-opacity="1" filter="url(#filter-3)" xlink:href="#path-2"></use>
+                <use fill="url(#linearGradient-1)" fill-rule="evenodd" xlink:href="#path-2"></use>
+                <use fill="black" fill-opacity="1" filter="url(#filter-4)" xlink:href="#path-2"></use>
+            </g>
+            <g id="previous" transform="translate(26.000000, 15.000000)">
+                <g id="bttn_previous">
+                    <use fill="black" fill-opacity="1" filter="url(#filter-6)" xlink:href="#path-5"></use>
+                    <use fill="#FDFCFD" fill-rule="evenodd" xlink:href="#path-5"></use>
+                </g>
+                <path d="M30,11.2720779 L30.5892588,10.6828191 C31.3688204,9.90325757 32.6316103,9.90368827 33.4107412,10.6828191 L43.3171809,20.5892588 C44.0967424,21.3688204 44.0963117,22.6316103 43.3171809,23.4107412 L33.4107412,33.3171809 C32.6311796,34.0967424 31.3683897,34.0963117 30.5892588,33.3171809 L30,32.7279221 L39.3171809,23.4107412 C40.0963117,22.6316103 40.0967424,21.3688204 39.3171809,20.5892588 L30,11.2720779 Z" id="ic_previous" fill="#585858" transform="translate(30.000000, 22.000000) rotate(-180.000000) translate(-30.000000, -22.000000) "></path>
+            </g>
+            <g id="next" transform="translate(76.000000, 15.000000)">
+                <g id="bttn_next">
+                    <use fill="black" fill-opacity="1" filter="url(#filter-8)" xlink:href="#path-7"></use>
+                    <use fill="#FDFCFD" fill-rule="evenodd" xlink:href="#path-7"></use>
+                </g>
+                <path d="M18,11.2720779 L18.5892588,10.6828191 C19.3688204,9.90325757 20.6316103,9.90368827 21.4107412,10.6828191 L31.3171809,20.5892588 C32.0967424,21.3688204 32.0963117,22.6316103 31.3171809,23.4107412 L21.4107412,33.3171809 C20.6311796,34.0967424 19.3683897,34.0963117 18.5892588,33.3171809 L18,32.7279221 L27.3171809,23.4107412 C28.0963117,22.6316103 28.0967424,21.3688204 27.3171809,20.5892588 L18,11.2720779 Z" id="ic_next" fill="#B1B1B1"></path>
+            </g>
+            <g id="search" transform="translate(148.000000, 15.000000)">
+                <g id="search-field">
+                    <use fill="black" fill-opacity="1" filter="url(#filter-10)" xlink:href="#path-9"></use>
+                    <use fill="#FDFCFD" fill-rule="evenodd" xlink:href="#path-9"></use>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
