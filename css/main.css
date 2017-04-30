@@ -1780,7 +1780,7 @@ p + p {
 .project-browser:before {
     left: 0;
     width: 116px;
-    background-image: url("../img/browser_left.jpg")
+    background-image: url("../img/browser_left.svg")
 }
 
 .project-browser:after {
