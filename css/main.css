@@ -1759,7 +1759,7 @@ p + p {
     width: 100%;
     height: 35px;
     top: -35px;
-    background: url("../img/browser_center.jpg") repeat left top;
+    background: url("../img/browser_center.svg") repeat left top;
     -webkit-user-select: none;
     -moz-user-select: none;
     -ms-user-select: none;
