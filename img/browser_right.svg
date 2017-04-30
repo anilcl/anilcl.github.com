@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="38px" height="36px" viewBox="0 0 38 36" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 43.2 (39069) - http://www.bohemiancoding.com/sketch -->
+    <title>browser_right</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-1">
+            <stop stop-color="#ECEBEC" offset="0%"></stop>
+            <stop stop-color="#D6D5D6" offset="100%"></stop>
+        </linearGradient>
+        <path d="M5.00967361,0 C2.24290727,0 0,2.23119173 0,5.00922367 L0,37 L498,37 L498,5.00922367 C498,2.24270583 495.752238,0 492.990326,0 L5.00967361,0 Z" id="path-2"></path>
+        <filter x="-0.1%" y="-1.4%" width="100.2%" height="105.4%" filterUnits="objectBoundingBox" id="filter-3">
+            <feOffset dx="0" dy="1" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feColorMatrix values="0 0 0 0 0.71372549   0 0 0 0 0.709803922   0 0 0 0 0.71372549  0 0 0 1 0" type="matrix" in="shadowOffsetOuter1"></feColorMatrix>
+        </filter>
+        <filter x="-0.1%" y="-1.4%" width="100.2%" height="105.4%" filterUnits="objectBoundingBox" id="filter-4">
+            <feOffset dx="0" dy="1" in="SourceAlpha" result="shadowOffsetInner1"></feOffset>
+            <feComposite in="shadowOffsetInner1" in2="SourceAlpha" operator="arithmetic" k2="-1" k3="1" result="shadowInnerInner1"></feComposite>
+            <feColorMatrix values="0 0 0 0 1   0 0 0 0 1   0 0 0 0 1  0 0 0 0.5 0" type="matrix" in="shadowInnerInner1"></feColorMatrix>
+        </filter>
+        <rect id="path-5" x="0" y="0" width="401" height="22" rx="4"></rect>
+        <filter x="-0.1%" y="-2.3%" width="100.2%" height="109.1%" filterUnits="objectBoundingBox" id="filter-6">
+            <feOffset dx="0" dy="1" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.1 0" type="matrix" in="shadowOffsetOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Safari-1200" transform="translate(-510.000000, -51.000000)">
+            <g id="Browser" transform="translate(50.000000, 50.000000)">
+                <g id="Header">
+                    <g id="Panel">
+                        <use fill="black" fill-opacity="1" filter="url(#filter-3)" xlink:href="#path-2"></use>
+                        <use fill="url(#linearGradient-1)" fill-rule="evenodd" xlink:href="#path-2"></use>
+                        <use fill="black" fill-opacity="1" filter="url(#filter-4)" xlink:href="#path-2"></use>
+                    </g>
+                    <g id="Search" transform="translate(78.000000, 8.000000)">
+                        <g id="Rectangle">
+                            <use fill="black" fill-opacity="1" filter="url(#filter-6)" xlink:href="#path-5"></use>
+                            <use fill="#FCFCFC" fill-rule="evenodd" xlink:href="#path-5"></use>
+                        </g>
+                        <path d="M388,6.02242151 L388,7.02746439 C385.750025,7.27618653 384,9.18372317 384,11.5 C384,13.9852814 386.014719,16 388.5,16 C390.985281,16 393,13.9852814 393,11.5 C393,11.3309955 392.990683,11.1641669 392.972536,11 L393.977578,11 C393.992419,11.164681 394,11.3314552 394,11.5 C394,14.5375661 391.537566,17 388.5,17 C385.462434,17 383,14.5375661 383,11.5 C383,8.63097872 385.19675,6.2750359 388,6.02242151 Z M388,4 L392.5,6.53500772 L388,9.5 L388,4 Z" id="Rectangle" fill="#7E7E7E"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
