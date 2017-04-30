@@ -1786,7 +1786,7 @@ p + p {
 .project-browser:after {
     right: 0;
     width: 38px;
-    background-image: url("../img/browser_right.jpg")
+    background-image: url("../img/browser_right.svg")
 }
 
 .project-browser_favicon {
